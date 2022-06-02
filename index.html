@@ -10,15 +10,42 @@
 </head>
 
 <body>
-  main.main>section.storage__card>.
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-
-  0 GB
-  1000 GB
-
+  <main class="main">
+    <section class="section__cards">
+      <div class="card__info container">
+        <figure class="info__logo">
+          <img src="images/logo.svg" alt="fylo logo" class="logo__img">
+        </figure>
+        <div class="info__icons">
+          <figure class="icon__container">
+            <img src="images/icon-document.svg" alt="document icon" class="icon">
+          </figure>
+          <figure class="icon__container">
+            <img src="images/icon-folder.svg" alt="folder icon" class="icon">
+          </figure>
+          <figure class="icon__container">
+            <img src="images/icon-upload.svg" alt="upload cloud icon" class="icon">
+          </figure>
+        </div>
+      </div>
+      <div class="card__storage container">
+        <h1 class="storage__title">You’ve used <span class="accent">815 GB</span> of your storage</h1>
+        <div class="storage__info">
+          <div class="info__bar">
+            <div class="bar__color"></div>
+          </div>
+          <div class="info__capacity">
+            <p class="capacity__min">0 GB</p>
+            <p class="capacity__max">1000 GB</p>
+          </div>
+        </div>
+        <div class="storage__total">
+          <p class="total__numbers">185</p>
+          <p class="total__txt">GB Left</p>
+        </div>
+      </div>
+    </section>
+  </main>
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
