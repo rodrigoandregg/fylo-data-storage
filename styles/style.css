@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/* footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+:root {
+    --gradient1: hsl(6, 100%, 80%);
+    --gradient2: hsl(335, 100%, 65%);
+    --paragraph: hsl(243, 100%, 93%);
+    --txt: hsl(229, 7%, 55%);
+    --cardbg: hsl(228, 56%, 26%);
+    --mainbg: hsl(229, 57%, 11%);
+}
+
+background: linear-gradient(90deg, var(--gradient1) 0%, var(--gradient2) 50%)no-repeat;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, var(--gradient1) 0%, var(--gradient2) 50%)no-repeat;
+}
