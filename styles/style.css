@@ -164,3 +164,42 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+@media (min-width:768px) {
+
+    body {
+        background: url(../images/bg-desktop.png) no-repeat right -60vw bottom -50vh, var(--mainbg);
+        background-size: cover;
+    }
+
+    .section__cards {
+        grid-template-columns: 1fr 2fr;
+        max-width: 700px;
+    }
+
+    .card__storage {
+        align-self: flex-end;
+        height: 75%;
+        display: flex;
+    }
+
+    .storage__total {
+        position: absolute;
+        order: -1;
+        margin: 0;
+        margin-top: -65px;
+        align-self: flex-end;
+        border-bottom-right-radius: 0;
+        padding: 10px 20px;
+    }
+
+    .storage__total::before {
+        content: "";
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        height: 40px;
+        width: 40px;
+        border-right: 20px solid var(--ball);
+        border-bottom: 20px solid transparent;
+    }
+}
